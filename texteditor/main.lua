@@ -1,8 +1,12 @@
+--this is a comment, they are not executed as part of the program
+
 function love.load()
-    text = ""
+    text = "" --initially, when the program loads, then the text is empty
 end
 
 function love.draw()
+	--in this method, which the Love2D framework calls to draw to the screen
+	--we draw the text that has accumulated in the text variable
     love.graphics.printf(text, 0, 0, 600, "left")
 end
 
@@ -20,6 +24,7 @@ function love.keypressed(key, scancode, isrepeat)
    		text = string.sub(text, 1, #text-1)
    		return
    	end
-
+   	-- here, it would be nice th have a key, which saves the written text to a file
+   	-- maybe that is not so easy, but see if you can figure out how to do that
    	text = text..key
 end
