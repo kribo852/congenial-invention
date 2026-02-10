@@ -17,7 +17,10 @@ function love.load()
     notes["k"] = beep(440*2^(13/16)) -- this is a half tone
     notes["j"] = beep(440*2^(11/16)) -- this is a half tone
     notes["h"] = beep(440*2^(9/16)) -- this is a half tone 
-    notes["g"] = beep(440*2^(7/16)) -- this is a half tone 
+    notes["g"] = beep(440*2^(7/16)) -- this is a half tone
+    notes["f"] = beep(440*2^(5/16))
+    notes["d"] = beep(440*2^(3/16))
+    notes["s"] = beep(440*2^(1/16)) 
 
     notes.upoctave = {} 
 
