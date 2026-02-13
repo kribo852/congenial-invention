@@ -7,7 +7,12 @@ end
 function love.draw()
 	--in this method, which the Love2D framework calls to draw to the screen
 	--we draw the text that has accumulated in the text variable
-    love.graphics.printf(text, 0, 0, 600, "left")
+    if text ~= "" then
+    	local width = love.graphics.getWidth()
+		love.graphics.printf(text, 0, 0, width, "left")
+	else
+		love.graphics.print("Welcome to the to the text editor, write something!", 0, 0)
+	end
 end
 
 
