@@ -3,13 +3,14 @@ Some small projects in Lua + Love2D, that can work as tutorials for someone that
 
 ## Examples
 The examples are made in Lua with the Love2D framework, because i think that Lua is a good choice for a first programming language for new programmers.  
-I want the examples to be similar to applications that you have encountered before, and that it is easy to see the usefulness of them. 
+I want the examples to be similar to applications that you have encountered before, and that they are useful. 
 
 | Example name      | Description      |
 | ------------- | ------------- |
 | painter | a painter program were one can draw stuff |
 | texteditor | a text editor, were one can write text |
 | sine-wave-piano | a program were one can play piano on the computer keyboard |
+| calendar | a program that shows a calendar |
 
 
 ## Links to resources, to learn programming 
@@ -30,13 +31,14 @@ Check out a tutorial on youtube, or check out these important concepts in Lua (a
 After that, check out the examples in this repository. They are not ordered in any particular order.
 If you feel comfortable with what the code does, and has already read up a bit on the Love2D framework, then see if you can make the programs do some new cool features!
 
+## Installing and running the programs
+There are instructions for how you install Love2D on their website. 
+For running each example in Linux, move your terminal to the folder of the example, and run "Love .".
 
 ## Something about versions,
 I used Love2D version 11.5 for Linux to run these small examples, and I belive that Love2D 11.5 in turn uses version 5.1 of the Lua programming language. If you check out som code on the internet, there might be some small changes between versions of Lua or Love2D, so don't be surprised :)
 
 ## Send me an email
 Send me an email if you have questions or thougts, or if you have some improvements to the examples
-
-
 
 
