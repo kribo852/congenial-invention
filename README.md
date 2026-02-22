@@ -29,16 +29,16 @@ Check out a tutorial on youtube, or check out these important concepts in Lua (a
 - functions
 
 After that, check out the examples in this repository. They are not ordered in any particular order.
-If you feel comfortable with what the code does, and has already read up a bit on the Love2D framework, then see if you can make the programs do some new cool features!
+If you feel comfortable with what the code does, and has already read up a bit on the Love2D framework, then see if you can make the programs do some cool new stuff!
 
 ## Installing and running the programs
 There are instructions for how you install Love2D on their website. 
-For running each example in Linux, move your terminal to the folder of the example, and run "Love .".
+For running each example in Linux, move your terminal to the folder of the example, and run "love .".
 
 ## Something about versions,
-I used Love2D version 11.5 for Linux to run these small examples, and I belive that Love2D 11.5 in turn uses version 5.1 of the Lua programming language. If you check out som code on the internet, there might be some small changes between versions of Lua or Love2D, so don't be surprised :)
+I used Love2D version 11.5 for Linux to run these small examples, and I belive that Love2D 11.5 in turn uses version 5.1 of the Lua programming language. If you check out or test some other code on the internet, there might be small changes in how stuff is written between different versions of Lua or Love2D. So don't be surprised :)
 
 ## Send me an email
-Send me an email if you have questions or thougts, or if you have some improvements to the examples
+Send me an email if you have questions or thoughts, or if you have some improvements to the examples
 
 
